@@ -27,6 +27,7 @@ function calculateDeterminant() {
     document.getElementById("a21").value = "";
     document.getElementById("a22").value = "";
     document.getElementById("result").innerHTML = "Result: ";
+    document.getElementById("result2").innerHTML = "Result: ";
   }
   function calculateDeterminant_2() {
     var a = parseInt(document.getElementById("a11").value);
