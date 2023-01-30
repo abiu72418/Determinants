@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: blue;
+    text-shadow: 2px 2px 2px grey;
+  }
+
+.matrix-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.matrix-pad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.matrix-table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: 400px;
+  text-align: center;
+}
+
+.matrix-table th, .matrix-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.matrix-table th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+.result-container {
+  margin-top: 50px;
+  font-size: 18px;
+}
+.result-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+.clear-btn{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.result-output {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: green;
+    margin: 20px 0;
+  }
