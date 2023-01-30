@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Matrix Determinant Calculator</title>
+  </head>
+  <body>
+    <h1>Matrix Determinant Calculator</h1>
+    <div class="matrix-container">
+      <table class="matrix-table">
+        <tr>
+          <td><input placeholder="1,1" type="text" id="value1"></td>
+          <td><input placeholder="1,2" type="text" id="value2"></td>
+          <td><input placeholder="1,3" type="text" id="value3"></td>
+        </tr>
+        <tr>
+          <td><input placeholder="2,1" type="text" id="value4"></td>
+          <td><input placeholder="2,2" type="text" id="value5"></td>
+          <td><input placeholder="2,3" type="text" id="value6"></td>
+        </tr>
+        <tr>
+          <td><input placeholder="3,1" type="text" id="value7"></td>
+          <td><input placeholder="3,2" type="text" id="value8"></td>
+          <td><input placeholder="3,3" type="text" id="value9"></td>
+        </tr>
+      </table>
+      <button class="result-btn" onclick="calculateDeterminant()">Calculate Determinant</button>
+    </div>
+    <div class="result-container result-output">
+      <p id="result">Result: </p>
+    </div>
+    <div>
+      <button class="clear-btn" onclick="clearValues()">Clear Values</button>
+    </div>
+    <div class="matrix-pad">
+      <table class="matrix-table">
+        <tr>
+          <td><input type="text" id="a11"></td>
+          <td><input type="text" id="a12"></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="a21"></td>
+          <td><input type="text" id="a22"></td>
+        </tr>
+      </table>
+      <button class="result-btn" onclick="calculateDeterminant_2()">Calculate Determinant</button>
+    </div>
+    <div class="result-container result-output">
+      <p id="result2"></p>
+    </div>
+    <script src="script.js"></script>
+
+
+  </body>
+</html>
